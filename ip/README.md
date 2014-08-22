@@ -14,6 +14,7 @@ usage
 <pre><code>
 http {
    lua_package_path '/usr/local/app/nginx/html/lib/?.lua;/usr/local/app/nginx/html/ip/conf/?.lua;;';
+   lua_shared_dict ip_cache 100m;
    ......
    server {
        ......
