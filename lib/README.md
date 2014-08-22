@@ -9,3 +9,7 @@ ssh.lua
 libssh的lua封装，来源：https://bitbucket.org/eoranged/lua-libssh
 该代码在libssh 0.5.5版本下使用正常，后续版本未测试，不保证可行性。
 同时在该代码里添加了一行：ngx.flush(),为了方便流式输出。
+
+ipdat.lua
+--------------
+来自17mon的ip数据库解析代码https://github.com/ilsanbao/17moncn/tree/master/luajit
