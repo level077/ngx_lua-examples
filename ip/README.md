@@ -1,4 +1,4 @@
-ip解析模块，基于17mon的ip库,ip库请到http://tool.17mon.cn/ipdb.html下载
+ip解析模块，基于17mon的ip库,ip库请到http://tool.17mon.cn/ipdb.html 下载
 
 conf/ip_map.lua
 -----------------
