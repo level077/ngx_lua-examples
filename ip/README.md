@@ -10,7 +10,7 @@ ip.lua
 
 usage
 ---------------
-请求方式为：curl '127.0.0.1/ip?ip=1.1.1.1',nginx.conf相关配置如下：
+请求方式为：curl '127.0.0.1/ip?ip=1.1.1.1'，nginx.conf相关配置如下：
 <pre><code>
 http {
    lua_package_path '/usr/local/app/nginx/html/lib/?.lua;/usr/local/app/nginx/html/ip/conf/?.lua;;';
