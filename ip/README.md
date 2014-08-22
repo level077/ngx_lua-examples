@@ -19,7 +19,7 @@ http {
    server {
        ......
        location /ip {
-           content_by_lua_file /usr/local/app/nginx/html/sa/ip/ip.lua;
+           content_by_lua_file /usr/local/nginx/html/ip/ip.lua;
        }	
    }
 }
