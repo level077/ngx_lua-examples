@@ -13,3 +13,7 @@ libssh的lua封装，来源：https://bitbucket.org/eoranged/lua-libssh
 ipdat.lua
 --------------
 来自17mon的ip数据库解析代码https://github.com/ilsanbao/17moncn/tree/master/luajit
+
+ipdatX.lia
+-------------
+ipip.net每日高级库解析代码
