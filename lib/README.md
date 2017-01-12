@@ -22,6 +22,6 @@ ipstation.lua
 ------------
 ipip.net基站数据lua解析代码
 
-ipstation.py
+ipip.py
 ------------
-ipip.net基站数据python解析代码
+ipip.net python解析代码，包括免费版，每日高级版，基站数据解析
