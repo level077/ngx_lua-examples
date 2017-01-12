@@ -14,6 +14,14 @@ ipdat.lua
 --------------
 来自17mon的ip数据库解析代码https://github.com/ilsanbao/17moncn/tree/master/luajit
 
-ipdatX.lia
+ipdatX.lua
 -------------
-ipip.net每日高级库解析代码
+ipip.net每日高级库lua解析代码
+
+ipstation.lua
+------------
+ipip.net基站数据lua解析代码
+
+ipstation.py
+------------
+ipip.net基站数据python解析代码
