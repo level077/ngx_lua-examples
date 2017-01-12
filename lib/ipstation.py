@@ -2,7 +2,7 @@
 # coding: utf-8
 
 import struct
-from socket import inet_aton, inet_ntoa
+from socket import inet_aton
 import os
 
 _unpack_V = lambda b: struct.unpack("<L", b)
