@@ -35,7 +35,8 @@ local function loadAreaListX()
 	local index = 1
 	while index < string.len(indexBuf) do
 		index_offset = byteToUint32(0,string.byte(indexBuf, index+6),string.byte(indexBuf, index+5),string.byte(indexBuf, index+4))
-		index_length = string.byte(indexBuf, index + 8)
+		--index_length = string.byte(indexBuf, index + 8)
+		index_length = byteToUint32(0,0,string.byte(indexBuf, index+7),string.byte(indexBuf, index+8))
 		index = index + 9
 		file:seek("set",offset_len - 262144 + index_offset)
 		areaList[index_offset] = file:read(index_length)
@@ -56,7 +57,8 @@ local function IpOffsetX(ipstr)
 		find_unit32 = byteToUint32(string.byte(indexBuffer, start), string.byte(indexBuffer, start+1),string.byte(indexBuffer, start+2),string.byte(indexBuffer, start+3))
 		if find_unit32 >= ip_unit32 then
 			index_offset = byteToUint32(0,string.byte(indexBuffer, start+6),string.byte(indexBuffer, start+5),string.byte(indexBuffer, start+4))
-			index_length = string.byte(indexBuffer, start + 8)
+			--index_length = string.byte(indexBuffer, start + 8)
+			index_length = byteToUint32(0,0,string.byte(indexBuffer, start+7),string.byte(indexBuffer, start+8))
 			break
 		end
 		start = start + 9
