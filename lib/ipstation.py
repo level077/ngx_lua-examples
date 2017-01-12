@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-# author: frk
 
 import struct
 from socket import inet_aton, inet_ntoa
